@@ -1,0 +1,26 @@
+body {
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+}
+
+.mid_col {
+  border-left: 2px grey solid;
+  border-right: 2px grey solid;
+}
+
+.mid_row td {
+  border-top: 2px grey solid;
+  border-bottom: 2px grey solid;
+}
+
+table {
+  margin: auto;
+}
