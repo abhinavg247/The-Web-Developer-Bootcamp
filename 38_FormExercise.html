@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="first_name">First Name:</label>
+      <input
+        id="first_name"
+        name="first_name"
+        type="text"
+        required
+        placeholder="John"
+      />
+      <label for="last_name">Last Name:</label>
+      <input
+        id="last_name"
+        name="last_name"
+        type="text"
+        required
+        placeholder="Smith"
+      />
+      <div>
+        <label for="male">Male</label>
+        <input id="male" name="gender" type="radio" value="Male" />
+        <label for="female">Female</label>
+        <input id="female" name="gender" type="radio" value="Female" />
+        <label for="other">Other</label>
+        <input id="other" name="gender" type="radio" value="Other" />
+      </div>
+      <div>
+        <label for="email">
+          Email:
+          <input name="email" type="email" required placeholder="your email" />
+        </label>
+        <label>
+          Password:
+          <input
+            name="password"
+            type="password"
+            pattern=".{5,10}"
+            required
+            title="5 to 10 characters"
+            required
+          />
+        </label>
+      </div>
+      <fieldset>
+        <legend>Birthday</legend>
+        <select name="Month" id="month">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="Other">Other</option>
+        </select>
+        <select name="Day" id="day">
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">Other</option>
+        </select>
+        <select name="Year" id="year">
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+      <div>
+        <label for="t_&_c">I agree to the terms and conditions</label>
+        <input id="t_&_c" name="t_and_c" type="checkbox" value="Yes" checked />
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
