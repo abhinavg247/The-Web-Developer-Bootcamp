@@ -1,7 +1,7 @@
 img {
   width: 30%; /* As we need 3 pics in one line  */
   float: left;
-  margin: 1.66%; /* As we need 6 margins for 3 pics, left and right */
+  margin: 1.66%; /* As we need 6 margins for 3 pictures, left and right */
 }
 p {
   font-family: raleway;
